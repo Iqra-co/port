@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Books from './components/BooksData/Books';
-import About from './components/about'; 
+import About from '../src/components/about/About'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 createRoot(document.getElementById('root')).render(
